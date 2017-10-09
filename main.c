@@ -11,7 +11,6 @@ int main()
     //tree1(rows);
     //tree2(rows);
     tree3(rows);
-
     return 0;
 }
 
@@ -21,7 +20,7 @@ void tree1(int rows)
     int j;
     for ( i = 0; i < rows; i++) {
         for ( j = 0; j <= i; j++) {
-            printf("*");
+                printf("*");
         }
         printf("\n");
     }
@@ -40,17 +39,30 @@ void tree2(int rows)
 }
 
 void tree3(int rows)
+
 {
     int i;
     int j;
+    int k;
+    int z;
+    int m;
     for ( i = 0; i < rows; i++) {
-        for ( j = 0; j <= i; j++) {
-            printf("*");
-        }
-        for ( j = 0; j <= i; j++) {
-            if i = 0;
-            printf("*");
-        }
-        printf("\n");
-    }
-}
+            for (k = 0; k < (rows - i); k++){
+            printf (" ");}
+
+                for ( j = 0; j <= i; j++) {
+                printf ("*");}
+
+                    for (z = 1; z < j; z++){
+                    printf ("*");}
+
+             printf("\n");}
+                        for ( i = 0; i < rows; i++) {
+                        printf (" ");}
+
+                        printf ("*");
+             }
+
+
+
+
